@@ -1,3 +1,8 @@
+export type AuthUser = {
+  id: string;
+  email: string;
+};
+
 export type Listing = {
   id: string;
   user_id: string;
@@ -7,7 +12,7 @@ export type Listing = {
   category: string;
   status: 'active' | 'inactive';
   created_at: string;
-  updated_at: string;
+  updated_at?: string;
 };
 
 export type ListingFormData = {
@@ -18,7 +23,10 @@ export type ListingFormData = {
   status: 'active' | 'inactive';
 };
 
-export type AuthUser = {
+export type Todo = {
   id: string;
-  email: string;
+  user_id: string;
+  text: string;
+  completed: boolean;
+  created_at: string;
 };

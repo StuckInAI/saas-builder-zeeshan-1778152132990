@@ -53,9 +53,9 @@ export default function ListingModal({ listing, onClose, onSave, saving }: Listi
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
-    setForm(prev => ({ ...prev, [name]: value }));
+    setForm((prev: ListingFormData) => ({ ...prev, [name]: value }));
     if (errors[name as keyof ListingFormData]) {
-      setErrors(prev => ({ ...prev, [name]: undefined }));
+      setErrors((prev: Partial<ListingFormData>) => ({ ...prev, [name]: undefined }));
     }
   };
 
