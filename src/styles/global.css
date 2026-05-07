@@ -42,18 +42,18 @@ input, textarea, select {
 
 /* Design Tokens */
 :root {
-  --color-bg: #f0fdf4;
+  --color-bg: #fff5f5;
   --color-surface: #ffffff;
-  --color-border: #bbf7d0;
-  --color-border-focus: #16a34a;
+  --color-border: #fecaca;
+  --color-border-focus: #dc2626;
 
-  --color-text: #14532d;
-  --color-text-muted: #4b7a5e;
+  --color-text: #450a0a;
+  --color-text-muted: #7f3535;
   --color-text-inverse: #ffffff;
 
-  --color-primary: #16a34a;
-  --color-primary-hover: #15803d;
-  --color-primary-light: #dcfce7;
+  --color-primary: #dc2626;
+  --color-primary-hover: #b91c1c;
+  --color-primary-light: #fee2e2;
 
   --color-danger: #ef4444;
   --color-danger-hover: #dc2626;

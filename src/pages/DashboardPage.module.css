@@ -202,7 +202,7 @@
 
 .searchInput:focus {
   border-color: var(--color-border-focus);
-  box-shadow: 0 0 0 3px rgba(22,163,74,0.10);
+  box-shadow: 0 0 0 3px rgba(220,38,38,0.10);
 }
 
 .filters {
